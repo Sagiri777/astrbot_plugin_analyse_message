@@ -1,0 +1,6 @@
+name: astrbot_plugin_analyse_message
+display_name: 消息元数据与构造
+desc: 解析引用消息和合并转发的原始元数据，根据 JSON 构造消息、图片卡片和聊天记录。
+version: v1.0.0
+author: chino
+astrbot_version: '>=4.29.1,<5'

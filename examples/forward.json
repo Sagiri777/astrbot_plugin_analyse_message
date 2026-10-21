@@ -1,0 +1,23 @@
+{
+  "kind": "forward",
+  "source": "聊天记录",
+  "summary": "查看 2 条消息",
+  "prompt": "[聊天记录] 示例",
+  "news": [
+    {
+      "text": "张三：第一条消息"
+    }
+  ],
+  "messages": [
+    {
+      "user_id": "10001",
+      "nickname": "张三",
+      "content": "第一条消息"
+    },
+    {
+      "user_id": "10002",
+      "nickname": "李四",
+      "content": "第二条消息"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "message",
+  "message": [
+    {
+      "type": "text",
+      "data": {
+        "text": "你好，世界"
+      }
+    }
+  ]
+}

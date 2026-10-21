@@ -1,0 +1,20 @@
+[project]
+name = "astrbot-plugin-analyse-message"
+version = "1.0.0"
+description = "Inspect and build AstrBot OneBot messages and forwarded chat records"
+requires-python = ">=3.12"
+dependencies = ["aiohttp>=3.11.18,<4"]
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10", "pytest-asyncio>=1.1,<2", "ruff>=0.15,<0.16"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B", "ASYNC"]

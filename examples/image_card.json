@@ -1,0 +1,7 @@
+{
+  "kind": "image_card",
+  "preview": "https://example.com/preview.jpg",
+  "url": "https://example.com/original.jpg",
+  "title": "点击打开另一张大图",
+  "description": "聊天中显示 preview，点击卡片跳转 url"
+}

@@ -1,0 +1,38 @@
+{
+  "build_admin_only": {
+    "description": "仅 AstrBot 管理员可构造消息",
+    "type": "bool",
+    "default": true,
+    "hint": "关闭后所有能触发本插件的用户都可以发送自定义消息与聊天记录。"
+  },
+  "max_json_bytes": {
+    "description": "输入、输出 JSON 大小上限（字节）",
+    "type": "int",
+    "default": 1048576
+  },
+  "inline_chars": {
+    "description": "元数据超过此字符数时改发 JSON 文件",
+    "type": "int",
+    "default": 3000
+  },
+  "max_nodes": {
+    "description": "单次构造的转发节点总数上限（含嵌套）",
+    "type": "int",
+    "default": 100
+  },
+  "max_depth": {
+    "description": "聊天记录解析、构造的最大嵌套层数",
+    "type": "int",
+    "default": 5
+  },
+  "max_forward_fetches": {
+    "description": "单次元数据解析最多获取的合并转发资源数",
+    "type": "int",
+    "default": 20
+  },
+  "api_timeout": {
+    "description": "协议端每次 API 请求超时（秒）",
+    "type": "int",
+    "default": 20
+  }
+}

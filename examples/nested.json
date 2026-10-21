@@ -1,0 +1,26 @@
+{
+  "kind": "forward",
+  "messages": [
+    {
+      "user_id": "10001",
+      "nickname": "张三",
+      "content": [
+        {
+          "type": "node",
+          "data": {
+            "user_id": "10002",
+            "nickname": "李四",
+            "content": [
+              {
+                "type": "text",
+                "data": {
+                  "text": "内层"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

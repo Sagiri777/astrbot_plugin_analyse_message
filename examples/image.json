@@ -1,0 +1,6 @@
+{
+  "kind": "image",
+  "file": "https://example.com/image.jpg",
+  "summary": "[图片] 这里是自定义摘要，不是图片内的像素文字",
+  "sub_type": 0
+}
